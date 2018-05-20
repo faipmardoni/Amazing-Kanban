@@ -56,7 +56,7 @@
     },
     computed: {
       test() {
-        this.card = store.state.card
+        return this.card = store.state.card
       }
     },
     methods: {
